@@ -1,0 +1,13 @@
+1.项目需要引入Log日志框架
+http://blog.csdn.net/qq_23547831/article/details/51707796
+2.在BaseActivity中引入友盟数据统计逻辑
+http://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650820702&idx=1&sn=f58abdeeb6453d73be2031e5ba736add&scene=0#wechat_redirect
+    在BaseActivity的生命周期中复写友盟数据统计方法。
+    @Override
+    protected void onResume() {
+        MobclickAgent.onResume(this);
+    }
+    @Override
+    protected void onPause() {
+        MobclickAgent.onPause(this);
+    }

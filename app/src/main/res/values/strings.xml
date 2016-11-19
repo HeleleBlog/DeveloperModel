@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DeveloperModel</string>
+
+    <string name="chat">微信</string>
+    <string name="contact">通讯录</string>
+    <string name="discovery">发现</string>
+    <string name="me">我</string>
+    <string name="action_settings">设置</string>
+    <string name="action_favorite">喜欢</string>
+    <string name="title_activity_side_slip">SideSlipActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_sideslip">SideslipActivity</string>
+    <string name="title_activity_side">SideActivity</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+</resources>

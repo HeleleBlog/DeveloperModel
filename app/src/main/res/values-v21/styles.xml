@@ -1,0 +1,7 @@
+<resources>
+    <!-- 文件夹values-v21 用来支持5.0的手机 -->
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+
+</resources>

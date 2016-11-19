@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="dark">#363636</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#218dca </color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="orange">#FF6633</color>
+    <color name="gray">#d6d6d6</color>
+    <color name="gray_bg">#666666</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#ea6000</color>
+    <color name="rel_back">#f8f8ff</color>
+    <color name="green">#70ca10</color>
+    <color name="gray_setting">#ff959595</color>
+    <color name="page_back">#fff2f2f2</color>
+    <color name="gray_green">#afeeee</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="design_green">#86a701</color>
+    <color name="blue_light">#1B77A8</color>
+
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="entry01">#202020</color>
+    <color name="entry02">#002097</color>
+    <color name="entry03">#970083</color>
+    <color name="entry04">#132a75</color>
+    <color name="entry05">#faac16</color>
+    <color name="entry06">#dd3e1f</color>
+    <color name="entry07">#979200</color>
+    <color name="entry08">#009715</color>
+
+    <color name="layoutback">#22292c</color>
+    <color name="layoutbackpress">#161e1c</color>
+    <color name="layoutpress">#5000CECE</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+</resources>

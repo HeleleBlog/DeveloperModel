@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--ToolBar的颜色-->
+        <item name="colorPrimary">@color/dark</item>
+        <!--状态栏的颜色-->
+        <!--对于5.0以下的设备，目前colorPrimaryDark无法去个性化状态栏的颜色-->
+        <item name="colorPrimaryDark">@color/dark</item>
+        <!--EditText、CheckBox、ProgressBar等颜色-->
+        <item name="colorAccent">@color/mediumseagreen</item>
+        <!--窗体的背景颜色-->
+        <item name="android:windowBackground">@color/white</item>
+        <!--设置Toolbar文本颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--设置弹出菜单时不会覆盖标题栏。-->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!--注意：button 设置为@null 可以将radiobutton的原点取消掉-->
+    <style name="style_RadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@drawable/rb_font_color</item>
+    </style>
+
+    <!--activity菜单theme-->
+    <style name="ToolbarMenuTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!--设置MenuItem子项文本的颜色-->
+        <item name="android:textColor">@color/mediumseagreen</item>
+        <!--设置Menu菜单弹出时的背景颜色-->
+        <item name="android:background">@color/dark</item>
+        <!--设置弹出菜单时不会覆盖标题栏。-->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!--默认情况下，Toolbar最右侧的溢出菜单是黑色的，通过这个Theme，可以将溢出菜单设置为白色-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="FontStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>
